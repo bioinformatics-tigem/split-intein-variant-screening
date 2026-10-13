@@ -118,7 +118,10 @@ $$
 100 \times
 \frac{\text{gatk\_count}}{\text{molecules\_covering}}
 $$
-L2A is **0.06693 / 0.05050 ≈ 1.33 times** as frequent in pool 37 as in pool 36. This is a comparison of **pool composition**, not a comparison of the number of cells.
+
+L2A is **0.06693 / 0.05050 ≈ 1.33 times** as frequent in pool 37 as in pool 36.
+
+This is a comparison of **pool composition**, not a comparison of the number of cells.
 
 For protein variants supported by several alternative codons, the parser **sums the accepted record frequencies** (`count / molecules_covering` for each record). Their denominators may differ, so `gatk_count / min_molecules_covering` or `/ max_molecules_covering` is **not** the final frequency.
 
