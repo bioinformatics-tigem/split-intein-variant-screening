@@ -111,13 +111,6 @@ Nearly all designed substitutions were observed in the selected pools. Each outp
 | `molecules_covering` | 2,845,684 | 3,236,447 |
 | **`gatk_frequency_percent`** | **0.05050%** | **0.06693%** |
 
-For this variant, each sample has one accepted GATK record:
-
-$$
-\text{Frequency (\%)} =
-100 \times
-\frac{\text{gatk\_count}}{\text{molecules\_covering}}
-$$
 
 L2A is **0.06693 / 0.05050 ≈ 1.33 times** as frequent in pool 37 as in pool 36.
 
